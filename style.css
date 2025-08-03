@@ -9,6 +9,11 @@
   background-position: 0 0, 50px 50px; /* Adjust the icon positioning */
 }
 
+body {
+  font-family: arial;
+  font-size: 16px;
+}
+
 main {
   margin-left: auto;
   margin-right: auto;
@@ -26,7 +31,15 @@ main section {
   background-color: white;
 }
 
+section p {
+  padding: 20px;
+}
+
 section img {
+  border-radius: 25px;
+  border: 3px solid black;
+
   width: 80%;
   margin: auto;
+  display: block;
 }
