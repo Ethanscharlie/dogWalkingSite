@@ -13,8 +13,8 @@ def main():
     for page_file in os.listdir("pages"):
         page_html = get_html_from_file(f"pages/{page_file}")
 
-        page_html = apply_navbar(page_html)
         page_html = apply_calendar(page_html)
+        page_html = run_evals_on_html(page_html)
 
         write_html_to_file(page_html, page_file)
 
@@ -25,12 +25,6 @@ def apply_calendar(html: str) -> str:
             get_html_from_file("templates/calendar_day.html").replace("{{ DAY_INFO }}", day_string)
             for day_string in get_info_for_calendar()
         ])
-    )
-
-def apply_navbar(html: str) -> str:
-    return html.replace(
-        "{{ NAVBAR }}",
-        get_html_from_file("templates/nav.html")
     )
 
 def get_html_from_file(file: str) -> str:
