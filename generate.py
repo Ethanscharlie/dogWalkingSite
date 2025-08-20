@@ -1,9 +1,14 @@
 import os
 import shutil
+from src.controller.calendar import get_info_for_calendar
 
 BUILD_DIR = "docs"
 
 def main():
+    ####
+    print('\n'.join(get_info_for_calendar()))
+    ####
+
     make_build_dir()
     copy_res_folder()
 
