@@ -1,8 +1,10 @@
 import os
 import shutil
+import re
 from src.controller.calendar import get_info_for_calendar
 
 BUILD_DIR = "docs"
+EVAL_REGEX_WITH_SYMBOLS = r'%%\s*.*?\s*%%'
 
 def main():
     make_build_dir()
@@ -47,6 +49,18 @@ def make_build_dir() -> None:
         shutil.rmtree(BUILD_DIR)
 
     os.makedirs(BUILD_DIR)
+
+def run_evals_on_html(html: str) -> str:
+    evals = re.findall(EVAL_REGEX_WITH_SYMBOLS, html)
+    for expression_with_symbols in evals:
+        expression = expression_with_symbols.replace("%%", "")
+
+        html = html.replace(
+            expression_with_symbols,
+            str(eval(expression))
+        )
+    
+    return html
 
 if __name__ == '__main__':
     main()
