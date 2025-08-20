@@ -41,7 +41,7 @@ class Day:
 def get_info_for_calendar() -> list[str]:
     days = Day.get_days_for_period()
     return [
-        f"DAY {day.date.strftime(DATE_COVERT_STRING)} {__get_booked_string(day.services)}"
+        f"{day.date.strftime(DATE_COVERT_STRING)} {__get_booked_string(day.services)}"
         for day in days
     ]
 

@@ -5,10 +5,6 @@ from src.controller.calendar import get_info_for_calendar
 BUILD_DIR = "docs"
 
 def main():
-    ####
-    print('\n'.join(get_info_for_calendar()))
-    ####
-
     make_build_dir()
     copy_res_folder()
 
@@ -16,9 +12,18 @@ def main():
         page_html = get_html_from_file(f"pages/{page_file}")
 
         page_html = apply_navbar(page_html)
+        page_html = apply_calendar(page_html)
 
         write_html_to_file(page_html, page_file)
 
+def apply_calendar(html: str) -> str:
+    return html.replace(
+        "{{ CALENDAR }}",
+        '\n'.join([
+            get_html_from_file("templates/calendar_day.html").replace("{{ DAY_INFO }}", day_string)
+            for day_string in get_info_for_calendar()
+        ])
+    )
 
 def apply_navbar(html: str) -> str:
     return html.replace(
