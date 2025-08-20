@@ -15,7 +15,12 @@
     <main>
       <section id="calendar">
         <p>
-          {{ CALENDAR }}
+%%
+'\n'.join([
+    get_html_from_file("templates/calendar_day.html").replace("{{ DAY_INFO }}", day_string)
+    for day_string in get_info_for_calendar()
+])
+%%
         </p>
       </section>
 

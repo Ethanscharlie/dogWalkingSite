@@ -13,19 +13,9 @@ def main():
     for page_file in os.listdir("pages"):
         page_html = get_html_from_file(f"pages/{page_file}")
 
-        page_html = apply_calendar(page_html)
         page_html = run_evals_on_html(page_html)
 
         write_html_to_file(page_html, page_file)
-
-def apply_calendar(html: str) -> str:
-    return html.replace(
-        "{{ CALENDAR }}",
-        '\n'.join([
-            get_html_from_file("templates/calendar_day.html").replace("{{ DAY_INFO }}", day_string)
-            for day_string in get_info_for_calendar()
-        ])
-    )
 
 def get_html_from_file(file: str) -> str:
     with open(file, "r") as f:
@@ -45,7 +35,7 @@ def make_build_dir() -> None:
     os.makedirs(BUILD_DIR)
 
 def run_evals_on_html(html: str) -> str:
-    evals = re.findall(EVAL_REGEX_WITH_SYMBOLS, html)
+    evals = re.findall(EVAL_REGEX_WITH_SYMBOLS, html, re.DOTALL)
     for expression_with_symbols in evals:
         expression = expression_with_symbols.replace("%%", "")
 
