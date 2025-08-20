@@ -1,7 +1,7 @@
 from ..model.Service import Service
 from datetime import datetime, timedelta
 
-DATE_COVERT_STRING = "%Y-%m-%d" #TODO Code dupe
+DATE_COVERT_STRING = "%b %d %A"
 PERIOD_DAYS = 30
 
 class Day:
