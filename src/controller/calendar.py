@@ -2,7 +2,8 @@ from ..model.Service import Service
 from datetime import datetime, timedelta
 
 DATE_COVERT_STRING = "%b %d %A"
-PERIOD_DAYS = 30
+PERIOD_DAYS = 90
+
 
 class Day:
     def __init__(self, date: datetime, services: list[Service]) -> None:
@@ -15,18 +16,20 @@ class Day:
         return [
             Day(
                 datetime.today() + timedelta(days=i),
-                Day.get_services_that_match_day(all_services, datetime.today() + timedelta(days=i))
+                Day.get_services_that_match_day(
+                    all_services, datetime.today() + timedelta(days=i)
+                ),
             )
             for i in range(PERIOD_DAYS)
         ]
 
     @staticmethod
-    def get_services_that_match_day(services: list[Service], date: datetime) -> list[Service]:
+    def get_services_that_match_day(
+        services: list[Service], date: datetime
+    ) -> list[Service]:
         return [
-            service
-            for service in services
-            if Day.service_matches_date(service, date)
-        ]    
+            service for service in services if Day.service_matches_date(service, date)
+        ]
 
     @staticmethod
     def service_matches_date(service: Service, date: datetime) -> bool:
@@ -45,6 +48,8 @@ def get_info_for_calendar() -> list[str]:
         for day in days
     ]
 
+
 def __get_booked_string(services: list[str]) -> str:
-    if len(services) > 0: return "BOOKED"
+    if len(services) > 0:
+        return "BOOKED"
     return ""
