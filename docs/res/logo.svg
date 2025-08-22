@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="975.81055"
+   height="476.74594"
+   viewBox="0 0 258.1832 126.13906"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.87392677"
+     inkscape:cx="325.54215"
+     inkscape:cy="208.82757"
+     inkscape:window-width="2069"
+     inkscape:window-height="1354"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-3.0275181,-68.441983)">
+    <g
+       id="g5-2"
+       inkscape:label="BoneBottom"
+       transform="translate(0.3337748,5.1664164)"
+       style="fill:#1c2224">
+      <circle
+         style="fill:#1c2224;stroke-width:0.305124"
+         id="path3-06"
+         cx="34.413837"
+         cy="99.828217"
+         r="31.422731" />
+      <circle
+         style="fill:#1c2224;stroke-width:0.305124"
+         id="path3-2-1"
+         cx="35.393032"
+         cy="157.99187"
+         r="31.422731" />
+      <circle
+         style="fill:#1c2224;stroke-width:0.305124"
+         id="path3-0-5"
+         cx="228.47504"
+         cy="99.301079"
+         r="31.422731" />
+      <circle
+         style="fill:#1c2224;stroke-width:0.305124"
+         id="path3-2-3-5"
+         cx="229.45422"
+         cy="157.46472"
+         r="31.422731" />
+      <rect
+         style="fill:#1c2224;stroke-width:0.268129"
+         id="rect4-4"
+         width="193.95525"
+         height="57.220184"
+         x="30.178356"
+         y="95.972481" />
+    </g>
+    <g
+       id="g5"
+       inkscape:label="BoneTop"
+       transform="translate(12.715596,-1.8165138)"
+       style="fill:#dbe2e3">
+      <circle
+         style="fill:#dbe2e3;stroke-width:0.305124"
+         id="path3"
+         cx="21.734653"
+         cy="102.20837"
+         r="31.422731" />
+      <circle
+         style="fill:#dbe2e3;stroke-width:0.305124"
+         id="path3-2"
+         cx="22.713848"
+         cy="160.37202"
+         r="31.422731" />
+      <circle
+         style="fill:#dbe2e3;stroke-width:0.305124"
+         id="path3-0"
+         cx="215.79585"
+         cy="101.68123"
+         r="31.422731" />
+      <circle
+         style="fill:#dbe2e3;stroke-width:0.305124"
+         id="path3-2-3"
+         cx="216.77505"
+         cy="159.84486"
+         r="31.422731" />
+      <rect
+         style="fill:#dbe2e3;stroke-width:0.268129"
+         id="rect4"
+         width="193.95525"
+         height="57.220184"
+         x="30.178356"
+         y="95.972481" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:44.8287px;font-family:'AnonymicePro Nerd Font';-inkscape-font-specification:'AnonymicePro Nerd Font';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2b1100;stroke-width:1.20077"
+       x="11.60839"
+       y="143.77396"
+       id="text1-4"
+       inkscape:label="MainTextBottom"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.8287px;font-family:Mogra;-inkscape-font-specification:'Mogra, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2b1100;stroke-width:1.20077"
+         x="11.60839"
+         y="143.77396"
+         id="tspan2-74">Ethansdog</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:44.8287px;font-family:'AnonymicePro Nerd Font';-inkscape-font-specification:'AnonymicePro Nerd Font';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#d40055;stroke-width:1.20077"
+       x="11.387027"
+       y="139.20145"
+       id="text1"
+       inkscape:label="MainTextTop"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.8287px;font-family:Mogra;-inkscape-font-specification:'Mogra, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d40055;stroke-width:1.20077"
+         x="11.387027"
+         y="139.20145"
+         id="tspan2">Ethansdog</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13.1326px;font-family:'AnonymicePro Nerd Font';-inkscape-font-specification:'AnonymicePro Nerd Font';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#dbe2e3;stroke-width:0.351769"
+       x="73.597664"
+       y="163.29704"
+       id="text1-3"
+       transform="scale(0.93837116,1.0656764)"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.1326px;font-family:Mogra;-inkscape-font-specification:'Mogra, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#dbe2e3;stroke-width:0.351769"
+         x="73.597664"
+         y="163.29704"
+         id="tspan2-7">Dog Walking / Sitting</tspan></text>
+  </g>
+</svg>

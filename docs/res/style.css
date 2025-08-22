@@ -3,10 +3,12 @@
   height: 100vh; /* Full height of the viewport */
   margin: 0;
   background-color: #2b47c77d; /* Optional background color */
-  background-image: url('bone.svg');
+  background-image: url("bone.svg");
   background-size: 50px 50px; /* Set the size of the icons */
   background-repeat: repeat;
-  background-position: 0 0, 50px 50px; /* Adjust the icon positioning */
+  background-position:
+    0 0,
+    50px 50px; /* Adjust the icon positioning */
 }
 
 body {
@@ -54,11 +56,11 @@ section img {
     background-color: white;
     border-bottom: 3px solid black;
   }
-  
+
   .navbar li {
     float: right;
   }
-  
+
   .navbar li a {
     display: block;
     color: black;
@@ -66,11 +68,10 @@ section img {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+
   li a:hover {
     background-color: lightgray;
   }
-
 
   .logo {
     height: 100px;
@@ -84,15 +85,15 @@ section img {
     background-color: white;
     border-bottom: 3px solid black;
   }
-  
+
   .navbar * {
     display: block;
     margin: auto;
   }
-  
+
   .navbar li {
   }
-  
+
   .navbar li a {
     display: block;
     color: black;
@@ -100,7 +101,7 @@ section img {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+
   li a:hover {
     background-color: lightgray;
   }
@@ -108,4 +109,20 @@ section img {
   .logo {
     height: 70px;
   }
+}
+
+#pricing {
+  display: flex;
+}
+
+.service {
+  border-radius: 25px;
+  border: 3px solid black;
+  box-shadow: 12px 8px 1px black;
+
+  padding: 20px;
+  margin: 20px;
+
+  background-color: yellow;
+  text-align: center;
 }
