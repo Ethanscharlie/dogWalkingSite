@@ -124,5 +124,8 @@ section img {
   margin: 20px;
 
   background-color: yellow;
+}
+
+.service h2 {
   text-align: center;
 }
